@@ -59,3 +59,6 @@ sudo rm -rf /var/lib/containerd
 - Verify that you can run `docker` commands without `sudo`:
 
   `docker run hello-world`
+
+Most probably have to restart the system, otherwise there are some permission
+issues, e.g. in running `docker ps`.
