@@ -1,3 +1,12 @@
+It's better to install build dependencies beforehand:
+
+```shell
+sudo apt install build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev curl llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev \
+libffi-dev liblzma-dev libsasl2-dev python3-dev libldap2-dev
+```
+
 `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
 
 Optionally do this (No worries if it fails):
