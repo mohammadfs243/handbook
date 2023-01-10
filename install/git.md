@@ -57,4 +57,7 @@ Here are some useful aliases to configure:
 git config --global alias.s 'status --short'
 git config --global alias.graph 'log --all --decorate --oneline --graph'
 git config --global alias.unstage 'reset HEAD --'
+git config --global alias.l 'log --oneline'
+git config --global alias.ls 'log --oneline --shortstat'
+git config --global alias.lls 'log --stat'
 ```
